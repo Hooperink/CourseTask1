@@ -1,3 +1,5 @@
+package task_course_1;
+
 import java.util.Scanner;
 
 public class LinearFour {

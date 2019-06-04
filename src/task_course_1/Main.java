@@ -1,3 +1,4 @@
+package task_course_1;
 
 public class Main {
 
@@ -7,7 +8,7 @@ public class Main {
 		LinearTwo taskTwo = new LinearTwo ();
 		//taskTwo.count();
 		LinearThree taskThree = new LinearThree ();
-		//taskThree.coung();
+		//taskThree.count();
 		LinearFour taskFour = new LinearFour ();
 		//taskFour.count();
 		LinearFive taskFive = new LinearFive ();
@@ -33,7 +34,7 @@ public class Main {
 		CycleFour cycleFour = new CycleFour();
 		//cycleFour.count();
 		CycleFive cycleFive = new CycleFive();
-		cycleFive.count();
+		//cycleFive.count();
 		CycleSix cycleSix = new CycleSix();
 		//cycleSix.count();
 		CycleSeven cycleSeven = new CycleSeven();

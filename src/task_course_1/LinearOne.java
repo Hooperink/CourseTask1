@@ -1,17 +1,19 @@
+package task_course_1;
+
 import java.util.Scanner;
 
-public class LinearTwo {
+public class LinearOne {
 	public void count() {
-		double a,b,c,z;
+		int a,b,c,z;
 		System.out.println("Enter a: ");
 		Scanner in = new Scanner(System.in);
-		a = in.nextDouble();
+        a = in.nextInt();
 		System.out.println("Enter b: ");
-		b = in.nextDouble();
+		b = in.nextInt();
 		System.out.println("Enter c: ");
-		c = in.nextDouble();
+		c = in.nextInt();
 		in.close();
-		z = (b + Math.sqrt(b*b + 4*a*c))/2*a - Math.pow(a, 3) * c + Math.pow (b, -2); 
+		z = ((a-3)*b/2)+c;
 		System.out.println("Answer: " + z);
 	}
 }

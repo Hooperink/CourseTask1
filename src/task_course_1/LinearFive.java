@@ -1,3 +1,5 @@
+package task_course_1;
+
 import java.util.Scanner;
 
 public class LinearFive {
@@ -11,6 +13,6 @@ public class LinearFive {
         sec = sec % 60;
         hour = min / 60;
         min = min % 60;
-        System.out.print(hour + "ч " + min + "мин " + sec + "сек");        
+        System.out.print(hour + "пїЅ " + min + "пїЅпїЅпїЅ " + sec + "пїЅпїЅпїЅ");        
     }
 }

@@ -1,3 +1,4 @@
+package task_course_1;
 
 public class CycleThree {
     public void count() {

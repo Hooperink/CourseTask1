@@ -1,17 +1,17 @@
+package task_course_1;
+
 import java.util.Scanner;
 
-public class LinearOne {
+public class LinearThree {
 	public void count() {
-		int a,b,c,z;
+		double a,b,z;
 		System.out.println("Enter a: ");
 		Scanner in = new Scanner(System.in);
-        a = in.nextInt();
+		a = in.nextDouble();
 		System.out.println("Enter b: ");
-		b = in.nextInt();
-		System.out.println("Enter c: ");
-		c = in.nextInt();
+		b = in.nextDouble();		
 		in.close();
-		z = ((a-3)*b/2)+c;
+		z = (Math.sin(a) + Math.cos(b)) / (Math.cos(a) - Math.sin(b)) * Math.tan(a * b); 
 		System.out.println("Answer: " + z);
 	}
 }
